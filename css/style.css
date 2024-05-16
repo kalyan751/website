@@ -1,0 +1,23 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255) !important ;
+    font-weight: 400;
+}
+
+/* style.css */
+.carousel-item img {
+    width: 100%; /* Ensure the image fills the entire width of its container */
+    max-height: 300px; /* Adjust this value as needed */
+    object-fit:cover; /* This ensures the entire image is visible within the container */
+}
+
+#skills-heading {
+    display: inline-block; /* This makes the heading's width match its content */
+  }
+  
+  #skills-hr {
+    width: 100%; /* Initially, it will take the full width of its parent */
+    max-width: 300px; /* This limits the maximum width, adjust as necessary */
+    margin: 0 auto; /* Center the line */
+    border: none; /* Remove default border */
+    border-top: 2px solid black; /* Customize the line appearance */
+  }
